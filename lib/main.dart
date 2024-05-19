@@ -1,8 +1,9 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:tai_learner/bloc/pager/pager_bloc.dart';
 import 'package:tai_learner/ui/pages/landing_page/landing_page.dart';
-import 'package:tai_learner/ui/pages/unit/bloc/unit_bloc.dart';
+import 'bloc/unit/unit_bloc.dart';
 import 'injection_container.dart' as di;
 
 void main() async{
@@ -13,9 +14,9 @@ void main() async{
       BlocProvider<UnitBloc>(
         create: (BuildContext context) => di.sl<UnitBloc>(),
       ),
-      // BlocProvider<TableBloc>(
-      //   create: (BuildContext context) => di.sl<TableBloc>(),
-      // ),
+      BlocProvider<PagerBloc>(
+        create: (BuildContext context) => di.sl<PagerBloc>(),
+      ),
     ], child:const MyApp()));
 
 }
