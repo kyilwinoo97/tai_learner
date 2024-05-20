@@ -2,96 +2,96 @@
   {
     "name": "ka",
     "image_url":"assets/image/basic_alphabet/ka.gif",
-    "sound_url": "assets/audio/basic_alphabet/ka.ogg"
+    "sound_url": "audio/basic_alphabet/ka.ogg"
   },
   {
     "name": "kha",
     "image_url":"assets/image/basic_alphabet/kha.gif",
-    "sound_url": "assets/audio/basic_alphabet/kha.ogg"
+    "sound_url": "audio/basic_alphabet/kha.ogg"
   },
   {
     "name": "nga",
     "image_url":"assets/image/basic_alphabet/nga.gif",
-    "sound_url": "assets/audio/basic_alphabet/nga.ogg"
+    "sound_url": "audio/basic_alphabet/nga.ogg"
   },
   {
     "name": "sa",
     "image_url":"assets/image/basic_alphabet/sa.gif",
-    "sound_url": "assets/audio/basic_alphabet/sa.ogg"
+    "sound_url": "audio/basic_alphabet/sa.ogg"
   },
   {
     "name": "za",
     "image_url":"assets/image/basic_alphabet/za.gif",
-    "sound_url": "assets/audio/basic_alphabet/za.ogg"
+    "sound_url": "audio/basic_alphabet/za.ogg"
   },
   {
     "name": "nya",
     "image_url":"assets/image/basic_alphabet/nya.gif",
-    "sound_url": "assets/audio/basic_alphabet/nya.ogg"
+    "sound_url": "audio/basic_alphabet/nya.ogg"
   },
   {
     "name": "ta",
     "image_url":"assets/image/basic_alphabet/ta.gif",
-    "sound_url": "assets/audio/basic_alphabet/ta.ogg"
+    "sound_url": "audio/basic_alphabet/ta.ogg"
   },
   {
-    "name": "hta",
-    "image_url":"assets/image/basic_alphabet/hta.gif",
-    "sound_url": "assets/audio/basic_alphabet/hta.ogg"
+    "name": "tha",
+    "image_url":"assets/image/basic_alphabet/tha.gif",
+    "sound_url": "audio/basic_alphabet/tha.ogg"
   },
   {
     "name": "na",
     "image_url":"assets/image/basic_alphabet/na.gif",
-    "sound_url": "assets/audio/basic_alphabet/na.ogg"
+    "sound_url": "audio/basic_alphabet/na.ogg"
   },
   {
     "name": "pa",
     "image_url": "assets/image/basic_alphabet/pa.gif",
-    "sound_url": "assets/audio/basic_alphabet/pa.ogg"
+    "sound_url": "audio/basic_alphabet/pa.ogg"
   },
   {
     "name": "pha",
     "image_url": "assets/image/basic_alphabet/pha.gif",
-    "sound_url": "assets/audio/basic_alphabet/pha.ogg"
+    "sound_url": "audio/basic_alphabet/pha.ogg"
   },
   {
     "name": "fa",
     "image_url":"assets/image/basic_alphabet/fa.gif",
-    "sound_url": "assets/audio/basic_alphabet/fa.ogg"
+    "sound_url": "audio/basic_alphabet/fa.ogg"
   },
   {
     "name": "ma",
     "image_url":"assets/image/basic_alphabet/ma.gif",
-    "sound_url": "assets/audio/basic_alphabet/ma.ogg"
+    "sound_url": "audio/basic_alphabet/ma.ogg"
   },
   {
     "name": "ya",
     "image_url":"assets/image/basic_alphabet/ya.gif",
-    "sound_url": "assets/audio/basic_alphabet/ya.ogg"
+    "sound_url": "audio/basic_alphabet/ya.ogg"
   },
   {
     "name": "ra",
     "image_url":"assets/image/basic_alphabet/ra.gif",
-    "sound_url": "assets/audio/basic_alphabet/ra.ogg"
+    "sound_url": "audio/basic_alphabet/ra.ogg"
   },
   {
     "name": "la",
     "image_url":"assets/image/basic_alphabet/la.gif",
-    "sound_url": "assets/audio/basic_alphabet/la.ogg"
+    "sound_url": "audio/basic_alphabet/la.ogg"
   },
   {
     "name": "wa",
     "image_url":"assets/image/basic_alphabet/wa.gif",
-    "sound_url": "assets/audio/basic_alphabet/wa.ogg"
+    "sound_url": "audio/basic_alphabet/wa.ogg"
   },
   {
     "name": "ha",
     "image_url":"assets/image/basic_alphabet/ha.gif",
-    "sound_url": "assets/audio/basic_alphabet/ha.ogg"
+    "sound_url": "audio/basic_alphabet/ha.ogg"
   },
   {
     "name": "aa",
     "image_url":"assets/image/basic_alphabet/aa.gif",
-    "sound_url": "assets/audio/basic_alphabet/aa.ogg"
+    "sound_url": "audio/basic_alphabet/aa.ogg"
   }
 ]

@@ -1,6 +1,7 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:tai_learner/bloc/lesson/lesson_bloc.dart';
 import 'package:tai_learner/bloc/pager/pager_bloc.dart';
 import 'package:tai_learner/ui/pages/landing_page/landing_page.dart';
 import 'bloc/unit/unit_bloc.dart';
@@ -16,6 +17,9 @@ void main() async{
       ),
       BlocProvider<PagerBloc>(
         create: (BuildContext context) => di.sl<PagerBloc>(),
+      ),
+      BlocProvider<LessonBloc>(
+        create: (BuildContext context) => di.sl<LessonBloc>(),
       ),
     ], child:const MyApp()));
 

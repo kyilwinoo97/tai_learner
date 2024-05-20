@@ -74,6 +74,7 @@ flutter:
      - assets/data/
      - assets/audio/basic_alphabet/
      - assets/image/basic_alphabet/
+     - assets/temp/basic_alphabet/
 
 
   # An image asset can refer to one or more resolution-specific "variants", see

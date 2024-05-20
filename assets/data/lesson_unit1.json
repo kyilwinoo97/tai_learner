@@ -1,0 +1,132 @@
+[
+  {
+    "name": "ka",
+    "questions":[
+      {
+        "url":"assets/temp/basic_alphabet/ka.png",
+        "sound_url": "audio/basic_alphabet/ka.ogg",
+        "answer": "true"
+      },
+      {
+        "url":"assets/temp/basic_alphabet/aa.png",
+        "sound_url": "audio/basic_alphabet/aa.ogg",
+        "answer": "false"
+      },
+      {
+        "url":"assets/temp/basic_alphabet/ma.png",
+        "sound_url": "audio/basic_alphabet/ma.ogg",
+        "answer": "false"
+      },
+      {
+        "url":"assets/temp/basic_alphabet/kha.png",
+        "sound_url": "audio/basic_alphabet/kha.ogg",
+        "answer": "false"
+      }
+    ],
+    "sound_url": "audio/basic_alphabet/ka.ogg"
+  },
+  {
+    "name": "aa",
+    "questions":[
+      {
+        "url":"assets/temp/basic_alphabet/aa.png",
+        "sound_url": "audio/basic_alphabet/aa.ogg",
+        "answer": "true"
+      },
+      {
+        "url":"assets/temp/basic_alphabet/na.png",
+        "sound_url": "audio/basic_alphabet/na.ogg",
+        "answer": "false"
+      },
+      {
+        "url":"assets/temp/basic_alphabet/nya.png",
+        "sound_url": "audio/basic_alphabet/nya.ogg",
+        "answer": "false"
+      },
+      {
+        "url":"assets/temp/basic_alphabet/ra.png",
+        "sound_url": "audio/basic_alphabet/ra.ogg",
+        "answer": "false"
+      }
+    ],
+    "sound_url": "audio/basic_alphabet/aa.ogg"
+  },
+  {
+    "name": "kha",
+    "questions":[
+      {
+        "url":"assets/temp/basic_alphabet/kha.png",
+        "sound_url": "audio/basic_alphabet/kha.ogg",
+        "answer": "true"
+      },
+      {
+        "url":"assets/temp/basic_alphabet/na.png",
+        "sound_url": "audio/basic_alphabet/na.ogg",
+        "answer": "false"
+      },
+      {
+        "url":"assets/temp/basic_alphabet/nya.png",
+        "sound_url": "audio/basic_alphabet/nya.ogg",
+        "answer": "false"
+      },
+      {
+        "url":"assets/temp/basic_alphabet/ra.png",
+        "sound_url": "audio/basic_alphabet/ra.ogg",
+        "answer": "false"
+      }
+    ],
+    "sound_url": "audio/basic_alphabet/kha.ogg"
+  },
+  {
+    "name": "nga",
+    "questions":[
+      {
+        "url":"assets/temp/basic_alphabet/nga.png",
+        "sound_url": "audio/basic_alphabet/nga.ogg",
+        "answer": "true"
+      },
+      {
+        "url":"assets/temp/basic_alphabet/pha.png",
+        "sound_url": "audio/basic_alphabet/pha.ogg",
+        "answer": "false"
+      },
+      {
+        "url":"assets/temp/basic_alphabet/pa.png",
+        "sound_url": "audio/basic_alphabet/pa.ogg",
+        "answer": "false"
+      },
+      {
+        "url":"assets/temp/basic_alphabet/za.png",
+        "sound_url": "audio/basic_alphabet/za.ogg",
+        "answer": "false"
+      }
+    ],
+    "sound_url": "audio/basic_alphabet/nga.ogg"
+  },
+  {
+    "name": "sa",
+    "questions":[
+      {
+        "url":"assets/temp/basic_alphabet/sa.png",
+        "sound_url": "audio/basic_alphabet/sa.ogg",
+        "answer": "true"
+      },
+      {
+        "url":"assets/temp/basic_alphabet/ka.png",
+        "sound_url": "audio/basic_alphabet/ka.ogg",
+        "answer": "false"
+      },
+      {
+        "url":"assets/temp/basic_alphabet/kha.png",
+        "sound_url": "audio/basic_alphabet/kha.ogg",
+        "answer": "false"
+      },
+      {
+        "url":"assets/temp/basic_alphabet/wa.png",
+        "sound_url": "audio/basic_alphabet/wa.ogg",
+        "answer": "false"
+      }
+    ],
+    "sound_url": "audio/basic_alphabet/sa.ogg"
+  }
+]

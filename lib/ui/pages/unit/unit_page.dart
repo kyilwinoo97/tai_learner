@@ -1,16 +1,16 @@
 import 'dart:convert';
 
+import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:tai_learner/bloc/pager/pager_bloc.dart';
-import 'package:tai_learner/repository/unit/unit_repository.dart';
-
 import '../../../bloc/unit/unit_bloc.dart';
 import '../../../data/model/Unit.dart';
 import 'package:tai_learner/injection_container.dart' as di;
 
 class UnitPage extends StatefulWidget {
-  const UnitPage({super.key});
+  String title;
+  UnitPage({required this.title,super.key});
 
   @override
   State<StatefulWidget> createState() => _UnitPageState();
@@ -33,7 +33,7 @@ class _UnitPageState extends State<UnitPage> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: const Text("Unit 1"),
+          title:  Text(widget.title),
         ),
         body: BlocBuilder<UnitBloc, UnitState>(
           bloc: unitBloc,
@@ -50,6 +50,8 @@ class _UnitPageState extends State<UnitPage> {
                         controller: controller,
                         physics: const NeverScrollableScrollPhysics(),
                         itemBuilder: (context, index) {
+                          playSound(state.result[index].soundUrl);
+
                           return Center(
                             child: UnitWidget(state.result[index]),
                           );
@@ -138,27 +140,37 @@ class _UnitPageState extends State<UnitPage> {
               ),
             )));
   }
+
+
+}
+void playSound(String soundUrl) async{
+  AudioPlayer player = AudioPlayer();
+  await player.play(AssetSource(soundUrl));
 }
 
 class UnitWidget extends StatelessWidget {
   Unit unit;
 
   UnitWidget(this.unit, {super.key});
-
   @override
   Widget build(BuildContext context) {
     return Column(
       children: [
-        const Row(
+         Row(
           mainAxisAlignment: MainAxisAlignment.start,
           children: [
-            Icon(
-              Icons.volume_up,
-              size: 35,
-              color: Colors.green,
+            InkWell(
+              onTap: (){
+                playSound(unit.soundUrl);
+              },
+              child: const Icon(
+                Icons.volume_up,
+                size: 35,
+                color: Colors.green,
+              ),
             ),
-            Padding(
-              padding: EdgeInsets.symmetric(horizontal: 8.0),
+           const Padding(
+              padding: EdgeInsets.symmetric(horizontal: 14.0),
               child: Text(
                 "Click to Repeat",
                 style: TextStyle(
